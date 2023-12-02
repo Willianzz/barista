@@ -4,7 +4,7 @@ import{l as g,c as d,s as a}from"./utilidades-50d25114.js";const r=g("carrinho")
       ></i>
     </button>
     <img
-      src="assents/img/${e.imagem}"
+      src="/barista/img/${e.imagem}"
       alt="Carrinho: ${e.nome}"
       class="h-24 rounded-lg"
     />
