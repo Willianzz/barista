@@ -1,0 +1,22 @@
+{
+  "homepage": "https://leobylle.github.io/cafeteriaTomjerry",
+  "name": "cafeteriatomjerry",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.0.0",
+    "tailwindcss": "^3.3.5",
+    "vite": "^4.4.5"
+  },
+  "dependencies": {
+    "git": "^0.1.5"
+  }
+}

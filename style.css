@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bg-slate-950{
+    background-color: #008080;
+}
+
+.peer:checked ~ .peer-checked\:bg-slate-950{
+    background-color: #008080;
+}
+
+.h-12{
+    height: 4rem;
+}
+
+.voltar-inicio{
+    margin-right: 1320px;
+    background-color: rgb(2 6 23 / var(--tw-bg-opacity));
+    color: white;
+    font-weight: 400;
+}
