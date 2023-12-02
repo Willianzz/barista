@@ -1,6 +1,6 @@
 import{c as n}from"./utilidades-50d25114.js";import{a as r,i as d,r as i,b as s}from"./menuCarrinho-889c4e4c.js";function c(){for(const o of n){const e=`<div class='border-solid w-48 m-2 flex flex-col p-2 justify-between shadow-xl shadow-slate-400 rounded-lg group ${o.bebida?"bebida":"acompanhamento"}' id="card-produto-${o.id}">
         <img
-        src="assents/img/${o.imagem}"
+        src="/barista/img/${o.imagem}"
         alt="Cafeteria"
         class='group-hover:scale-110 duration-300 my-3 rounded-lg'
         />
